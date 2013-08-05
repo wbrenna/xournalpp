@@ -5,9 +5,9 @@
 #include <poppler/OutputDev.h>
 #include <poppler/TextOutputDev.h>
 */
-#include "../poppler-0.12.4/PDFDoc.h"
-#include "../poppler-0.12.4/Gfx.h"
-#include "../poppler-0.12.4/OutputDev.h"
+#include "../poppler-0.12.4/poppler/PDFDoc.h"
+#include "../poppler-0.12.4/poppler/Gfx.h"
+#include "../poppler-0.12.4/poppler/OutputDev.h"
 #include "../workaround/workaround.h"
 
 XojPopplerPage::XojPopplerPage(PDFDoc * doc, GMutex * docMutex, CairoOutputDev * outputDev, Page * page, int index) {

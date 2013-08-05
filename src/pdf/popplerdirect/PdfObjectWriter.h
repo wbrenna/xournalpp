@@ -14,7 +14,7 @@
 
 #include "poppler/XojPopplerDocument.h"
 //#include <poppler/Object.h>
-#include "poppler-0.12.4/Object.h"
+#include "poppler-0.12.4/poppler/Object.h"
 
 #include "PdfWriter.h"
 #include "PdfXRef.h"

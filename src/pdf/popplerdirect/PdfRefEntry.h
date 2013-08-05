@@ -13,7 +13,7 @@
 #define __PDFREFENTRY_H__
 
 //#include <poppler/Object.h>
-#include "poppler-0.12.4/Object.h"
+#include "poppler-0.12.4/poppler/Object.h"
 #include "poppler/XojPopplerDocument.h"
 
 enum PdfRefEntryType {

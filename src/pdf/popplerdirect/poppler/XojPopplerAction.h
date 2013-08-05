@@ -18,7 +18,7 @@
 #include <String.h>
 
 //#include <poppler/Link.h>
-#include "../poppler-0.12.4/Link.h"
+#include "../poppler-0.12.4/poppler/Link.h"
 
 class XojPopplerAction  {
 public:

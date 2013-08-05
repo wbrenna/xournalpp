@@ -20,12 +20,12 @@
 #include <poppler/Catalog.h>
 #include <poppler/OptionalContent.h>
 */
-#include "../poppler-0.12.4/PDFDoc.h"
-#include "../poppler-0.12.4/Gfx.h"
-#include "../poppler-0.12.4/FontInfo.h"
-#include "../poppler-0.12.4/TextOutputDev.h"
-#include "../poppler-0.12.4/Catalog.h"
-#include "../poppler-0.12.4/OptionalContent.h"
+#include "../poppler-0.12.4/poppler/PDFDoc.h"
+#include "../poppler-0.12.4/poppler/Gfx.h"
+#include "../poppler-0.12.4/poppler/FontInfo.h"
+#include "../poppler-0.12.4/poppler/TextOutputDev.h"
+#include "../poppler-0.12.4/poppler/Catalog.h"
+#include "../poppler-0.12.4/poppler/OptionalContent.h"
 
 #include "../workaround/workaround.h"
 
