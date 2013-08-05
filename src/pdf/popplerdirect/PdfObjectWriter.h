@@ -13,7 +13,8 @@
 #define __PDFOBJECTWRITER_H__
 
 #include "poppler/XojPopplerDocument.h"
-#include <poppler/Object.h>
+//#include <poppler/Object.h>
+#include "poppler-0.12.4/Object.h"
 
 #include "PdfWriter.h"
 #include "PdfXRef.h"

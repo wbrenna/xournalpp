@@ -14,7 +14,8 @@
 
 #include <glib.h>
 #include <String.h>
-#include <poppler/Object.h>
+//#include <poppler/Object.h>
+#include "poppler-0.12.4/Object.h"
 
 #include "PdfObjectWriter.h"
 #include "poppler/XojPopplerDocument.h"

@@ -2,10 +2,16 @@
 #include "XojPopplerIter.h"
 
 #include <glib.h>
-#include <poppler/PDFDoc.h>
+/*#include <poppler/PDFDoc.h>
 #include <poppler/GlobalParams.h>
 #include <poppler/ErrorCodes.h>
 #include <poppler/Outline.h>
+*/
+#include "../poppler-0.12.4/PDFDoc.h"
+#include "../poppler-0.12.4/GlobalParams.h"
+#include "../poppler-0.12.4/ErrorCodes.h"
+#include "../poppler-0.12.4/Outline.h"
+
 
 #include <config.h>
 #include <glib/gi18n-lib.h>
