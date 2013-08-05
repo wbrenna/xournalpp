@@ -202,6 +202,10 @@ endif
 xournalpp_LDADD = \
 	@PACKAGE_LIBS@ $(INTLLIBS) \
 	$(top_builddir)/src/collab/libcollab.la \
-	$(top_builddir)/src/util/libutil.la
+	$(top_builddir)/src/util/libutil.la \
+	pdf/libpoppler.a \
+	/usr/lib/libcms.so.1 \
+	/usr/lib/libopenjpeg.so.2 \
+	/usr/lib/libjpeg.so.62
 
 	
