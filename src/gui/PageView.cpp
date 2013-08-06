@@ -859,3 +859,27 @@ int PageView::getDisplayHeight() {
 
 	return this->page.getHeight() * this->xournal->getZoom();
 }
+
+TexImage * PageView::getSelectedTex() {
+	XOJ_CHECK_TYPE(PageView);
+
+	EditSelection * theSelection = this->xournal->getSelection();
+	if(!theSelection)
+	{
+		return NULL;
+	}
+
+	TexImage * texMatch = NULL;
+
+	ListIterator<Element *> eit = theSelection->getElements();
+	while(eit.hasNext())
+	{
+		Element * e = eit.next();
+		if (e->getType() == ELEMENT_TEXIMAGE)
+		{
+			texMatch = (TexImage *) e;
+		}
+	}
+	return texMatch;
+	
+}
