@@ -32,8 +32,8 @@
 #pragma interface
 #endif
 
-#include "goo/gtypes.h"
-#include "goo/GooString.h"
+#include "../goo/gtypes.h"
+#include "../goo/GooString.h"
 #include "Object.h"
 #include "CharTypes.h"
 

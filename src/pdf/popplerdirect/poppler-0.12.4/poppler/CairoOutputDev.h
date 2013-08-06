@@ -33,7 +33,7 @@
 #pragma interface
 #endif
 
-#include "goo/gtypes.h"
+#include "../goo/gtypes.h"
 #include <cairo-ft.h>
 #include "OutputDev.h"
 #include "TextOutputDev.h"

@@ -32,9 +32,9 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "goo/gtypes.h"
-#include "goo/gmem.h"
-#include "goo/GooString.h"
+#include "../goo/gtypes.h"
+#include "../goo/gmem.h"
+#include "../goo/GooString.h"
 #include "Error.h"
 
 #if defined(__GNUC__) && (__GNUC__ > 2) && defined(__OPTIMIZE__)

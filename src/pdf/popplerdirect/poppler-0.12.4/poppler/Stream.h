@@ -31,7 +31,7 @@
 #endif
 
 #include <stdio.h>
-#include "goo/gtypes.h"
+#include "../goo/gtypes.h"
 #include "Object.h"
 
 class BaseStream;

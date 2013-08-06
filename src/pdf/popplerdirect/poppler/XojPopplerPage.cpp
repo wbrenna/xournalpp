@@ -3,8 +3,8 @@
 #include <poppler/PDFDoc.h>
 #include <poppler/Gfx.h>
 #include <poppler/OutputDev.h>
-#include <poppler/TextOutputDev.h>
 */
+#include "../poppler-0.12.4/poppler/TextOutputDev.h"
 #include "../poppler-0.12.4/poppler/PDFDoc.h"
 #include "../poppler-0.12.4/poppler/Gfx.h"
 #include "../poppler-0.12.4/poppler/OutputDev.h"

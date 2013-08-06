@@ -31,7 +31,7 @@
 #pragma interface
 #endif
 
-#include "goo/gtypes.h"
+#include "../goo/gtypes.h"
 #include "Object.h"
 #include "Function.h"
 

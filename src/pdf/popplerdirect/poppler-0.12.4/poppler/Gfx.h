@@ -32,8 +32,8 @@
 #pragma interface
 #endif
 
-#include "goo/gtypes.h"
-#include "goo/GooList.h"
+#include "../goo/gtypes.h"
+#include "../goo/GooList.h"
 #include "GfxState.h"
 #include "Object.h"
 #include "PopplerCache.h"

@@ -16,11 +16,11 @@
 #endif
 
 #include "poppler-config.h"
-#include "goo/gtypes.h"
+#include "../goo/gtypes.h"
 #include "CharTypes.h"
 
 #if MULTITHREADED
-#include "goo/GooMutex.h"
+#include "../goo/GooMutex.h"
 #endif
 
 class GooString;

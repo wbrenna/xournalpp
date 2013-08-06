@@ -23,8 +23,8 @@
 #ifndef FONT_INFO_H
 #define FONT_INFO_H
 
-#include "goo/gtypes.h"
-#include "goo/GooList.h"
+#include "../goo/gtypes.h"
+#include "../goo/GooList.h"
 
 class FontInfo {
 public:
